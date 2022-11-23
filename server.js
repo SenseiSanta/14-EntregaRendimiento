@@ -83,7 +83,7 @@ app.get('/datos', (req, res) => {
 })
 
 /*================== Servidor ==================*/
-const minimistOptions = {default: {p: 8080, m: 'FORK'}}
+const minimistOptions = {default: {p: 3306, m: 'FORK'}}
 const proceso = minimist(process.argv, minimistOptions)
 
 //nodemon server.js -p 8081
