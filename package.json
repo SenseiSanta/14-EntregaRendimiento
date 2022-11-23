@@ -8,7 +8,7 @@
     "start": "node server.js",
     "build": "node src/batch/createTables.js"
   },
-  "author": "Santiago Olivera",
+  "author": "Santiagoo Olivera",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
