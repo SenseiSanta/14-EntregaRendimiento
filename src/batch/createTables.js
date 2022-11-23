@@ -2,7 +2,7 @@ import knex from 'knex';
 import { configMaria, configSQLite } from '../utils/config.js'
 
 const knexCliMaria = knex(configMaria.db);
-const knexCliSQLite = knex(configSQLite.db);
+//const knexCliSQLite = knex(configSQLite.db);
 
 knexCliMaria.schema.dropTableIfExists('mensajes')
     .then(()=>{
@@ -22,7 +22,7 @@ knexCliMaria.schema.dropTableIfExists('mensajes')
             })
     })
 
-knexCliSQLite.schema.dropTableIfExists('productos')
+/* knexCliSQLite.schema.dropTableIfExists('productos')
     .then(()=>{
         knexCliSQLite.schema.createTable('productos', table => {
             table.increments('id').primary()
@@ -39,3 +39,4 @@ knexCliSQLite.schema.dropTableIfExists('productos')
                 knexCliSQLite.destroy()
             })
     })
+ */

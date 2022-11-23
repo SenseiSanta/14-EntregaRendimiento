@@ -10,14 +10,14 @@ const __dirname = path.dirname(__filename);
 import { logger } from '../utils/logger.js';
 
 /* ============ Creacion de objeto ============ */
-import { ContenedorSQLite } from '../container/ContenedorSQLite.js';
+//import { ContenedorSQLite } from '../container/ContenedorSQLite.js';
 import { ContenedorFirebase } from "../container/ContenedorFirebase.js";
-import { ContenedorMongoDB } from '../container/ContenedorMongoDB.js';
-import { UsuariosSchema } from '../../models/users.js';
+//import { ContenedorMongoDB } from '../container/ContenedorMongoDB.js';
+//import { UsuariosSchema } from '../../models/users.js';
 
 const cajaMensajes = new ContenedorFirebase('mensajes');
-const cajaProducto = new ContenedorSQLite('productos');
-const cajaUsuario = new ContenedorMongoDB('usuarios', UsuariosSchema)
+const cajaProducto = new ContenedorFirebase('productos');
+const cajaUsuario = new ContenedorFirebase('usuarios')
 
 /* ================== Mocks ================== */
 import { productoMock } from '../mocks/producto.mock.js';

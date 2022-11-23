@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+/* import mongoose from 'mongoose';
 import { configMongoDB } from '../utils/config.js'
 
 let connection = await mongoose.connect(configMongoDB.db.cnxString)
@@ -72,4 +72,4 @@ export class ContenedorMongoDB {
             return {error: 'No se ha eliminado nada'}
         }
     }
-}
+} */

@@ -1,11 +1,13 @@
+// Este ruteo fue cambiado a firebase para evitar errores en Heroku
+
 /* ============= INICIO DE ROUTEO ============= */
 import express from 'express';
 import { UsuariosSchema } from '../../models/users.js';
-import { ContenedorMongoDB } from '../container/ContenedorMongoDB.js';
+import { ContenedorFirebase } from '../container/ContenedorFirebase.js';
 const routerTesting = express.Router();
 
 /* ============ Creacion de objeto ============ */
-const cajaUsuario = new ContenedorMongoDB('usuarios', UsuariosSchema)
+const cajaUsuario = new ContenedorFirebase('usuarios')
 
 /* ============= Routing y metodos ============= */
 routerTesting.get('/obtenertodo', async (req, res) =>{

@@ -1,4 +1,4 @@
-import knex from 'knex'
+/* import knex from 'knex'
 import { configSQLite } from '../utils/config.js'
 
 export class ContenedorSQLite {
@@ -47,4 +47,4 @@ export class ContenedorSQLite {
         this.knexCli.destroy();
     }
 
-}
+} */
