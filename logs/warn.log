@@ -2,3 +2,6 @@
 [2022-11-14T20:29:04.652] [WARN] default - Ruta GET en / no implementada
 [2022-11-14T20:34:12.476] [ERROR] default - 14/11/2022: Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
 [2022-11-14T20:34:39.432] [ERROR] default - 14/11/2022: Error en el servidor -> Error: listen EADDRINUSE: address already in use :::8080
+[2022-11-23T18:58:30.806] [WARN] default - Ruta GET en / no implementada
+[2022-11-23T18:58:31.454] [WARN] default - Ruta GET en / no implementada
+[2022-11-23T18:58:35.293] [WARN] default - Ruta GET en / no implementada
