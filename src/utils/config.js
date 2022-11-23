@@ -1,4 +1,4 @@
-import { fileURLToPath } from 'url';
+/* import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -35,4 +35,4 @@ export const configMongoDB = {
             serverSelectionTimeoutMS: 5000
         }
     }
-}
+} */

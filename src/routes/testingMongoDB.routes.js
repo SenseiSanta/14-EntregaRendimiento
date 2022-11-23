@@ -2,7 +2,7 @@
 
 /* ============= INICIO DE ROUTEO ============= */
 import express from 'express';
-import { UsuariosSchema } from '../../models/users.js';
+//import { UsuariosSchema } from '../../models/users.js';
 import { ContenedorFirebase } from '../container/ContenedorFirebase.js';
 const routerTesting = express.Router();
 
